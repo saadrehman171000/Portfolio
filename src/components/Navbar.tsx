@@ -23,11 +23,11 @@ export default function Navbar({ open, navbar, setOpen }: Props) {
                 <div
                     className="flex lg:flex-row justify-between w-full lg:w-auto items-center space-x-3 flex-row-reverse"
                 >
-                    <div className="absolute top-0 lg:static -left-10 lg:left-0">
+                    <div className="absolute top-5 lg:static -left-10 lg:left-0">
                         {navbar ? (
-                            <Image width={170} height={170} src="/LOGOO.svg" alt="SR Logo" className="lg:static" />
+                            <Image width={170} height={170} src="/LOGOO.png" alt="SR Logo" className="lg:static" />
                         ) : (
-                            <Image width={170} height={170} src="/LOGOO.svg" alt="SR Logo" />
+                            <Image width={170} height={170} src="/LOGOO.png" alt="SR Logo" />
                         )}
                     </div>
                     <div className="h-[24px] w-[24px]" onClick={() => setOpen(!open)}>
