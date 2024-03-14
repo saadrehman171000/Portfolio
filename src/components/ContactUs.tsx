@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import LeftCard2 from '../../public/LeftCard3.svg';
-import hr from '../../public/LOGOO.png';
+import hr from '../../public/lg.png';
 
 const ContactUs = () => {
   return (

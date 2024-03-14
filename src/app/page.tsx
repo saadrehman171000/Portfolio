@@ -35,7 +35,12 @@ export default function page() {
         <div className="flex items-center justify-center px-4 lg:flex-row  flex-col">
           {!open && (
             <div className="flex flex-col justify-start items-start text-red-950 mt-20">
-              <p className="lg:text-6xl text-3xl font-bold max-w-3xl text-start text-white lg:max-w-[700px]">I prioritize <span className="capitalize text-primary">top-notch</span> solutions that guarantee customer satisfaction and deliver exceptional value.</p>
+              <p className='text-white font-bold text-3xl md:text-6xl'>Welcome to my portfolio</p>
+              <br/>
+              <p className='text-red-500 font-bold text-3xl md:text-6xl'>Saad Rehman,</p>
+              <p className='text-white font-bold text-3xl md:text-6xl'>a Computer Scientist</p>
+              <p className='text-white font-bold text-3xl md:text-6xl'>eager to innovate and</p>
+              <p className='text-white font-bold text-3xl md:text-6xl'>solve challanges</p>
               <div className="flex flex-row items-center mt-4"> {/* Added a container for both buttons */}
                 {/* Download CV button/link */}
                 <a href="https://drive.google.com/file/d/1HkZYnk_Yxe14OrvxyIVS0EGMbmZqr3ub/view" download className="text-xl px-8 py-3 mb-6 hover:bg-black hover:text-white hover:outline-none outline text-white outline-white rounded-3xl mt-4 transition-colors duration-300 mr-4">Download CV</a>

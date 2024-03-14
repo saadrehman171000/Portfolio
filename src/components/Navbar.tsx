@@ -25,9 +25,9 @@ export default function Navbar({ open, navbar, setOpen }: Props) {
                 >
                     <div className="absolute top-5 lg:static -left-10 lg:left-0">
                         {navbar ? (
-                            <Image width={170} height={170} src="/LOGOO.png" alt="SR Logo" className="lg:static" />
+                            <Image width={100} height={100} src="/lg.png" alt="SR Logo" className="lg:static" />
                         ) : (
-                            <Image width={170} height={170} src="/LOGOO.png" alt="SR Logo" />
+                            <Image width={100} height={100} src="/lg.png" alt="SR Logo" />
                         )}
                     </div>
                     <div className="h-[24px] w-[24px]" onClick={() => setOpen(!open)}>

@@ -768,32 +768,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./public/LOGOO.png": {
-      "*": {
-        "id": "(sc_client)/./public/LOGOO.png",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/LOGOO.png",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/LOGOO.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/communicate.svg": {
       "*": {
         "id": "(sc_client)/./public/communicate.svg",
@@ -891,6 +865,32 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./public/hr.webp",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/lg.png": {
+      "*": {
+        "id": "(sc_client)/./public/lg.png",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/lg.png",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/lg.png",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -2954,30 +2954,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "E:\\Saad Rehman\\Portfolio\\public\\LOGOO.png": {
-      "id": "(app-client)/./public/LOGOO.png",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "E:\\Saad Rehman\\Portfolio\\public\\LOGOO.png#": {
-      "id": "(app-client)/./public/LOGOO.png",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "E:\\Saad Rehman\\Portfolio\\public\\LOGOO.png#default": {
-      "id": "(app-client)/./public/LOGOO.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "E:\\Saad Rehman\\Portfolio\\public\\communicate.svg": {
       "id": "(app-client)/./public/communicate.svg",
       "name": "*",
@@ -3068,6 +3044,30 @@ self.__RSC_MANIFEST={
     },
     "E:\\Saad Rehman\\Portfolio\\public\\hr.webp#default": {
       "id": "(app-client)/./public/hr.webp",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Saad Rehman\\Portfolio\\public\\lg.png": {
+      "id": "(app-client)/./public/lg.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Saad Rehman\\Portfolio\\public\\lg.png#": {
+      "id": "(app-client)/./public/lg.png",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Saad Rehman\\Portfolio\\public\\lg.png#default": {
+      "id": "(app-client)/./public/lg.png",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
