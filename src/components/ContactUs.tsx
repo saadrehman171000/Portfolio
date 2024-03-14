@@ -1,11 +1,9 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 import LeftCard2 from '../../public/LeftCard3.svg';
-import hr from '../../public/hr.webp';
+import hr from '../../public/LOGOO.png';
 
-type Props = {}
-
-const ContactUs = (props: Props) => {
+const ContactUs = () => {
   return (
     <div id="contact" className='flex lg:flex-row flex-col font-mono min-h-screen overflow-y-hidden text-gray-100'>
       {/* Left Card */}
@@ -13,21 +11,20 @@ const ContactUs = (props: Props) => {
         <h1 className='text-start text-5xl font-bold'>Contact Me</h1>
         <div className='mt-10 text-xl flex flex-col space-y-10'>
           <p className='font-light font-mono max-w-[600px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas eveniet numquam beatae magnam architecto tempore ipsa sunt itaque neque molestiae fuga error, aliquam consectetur voluptate nesciunt repellendus reiciendis aperiam non impedit ducimus voluptatum debitis laboriosam, aspernatur in. Atque ab quis excepturi itaque magni rerum dicta sapiente aliquid adipisci, accusantium dolorem?</p>
-          <div>
-          <p className='text-xl'>GitHub <a href="https://github.com/saadrehman171000" target="_blank" rel="noopener noreferrer" className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>saadrehman171000</a></p>
-    <p className='text-xl'>LinkedIn <a href="https://www.linkedin.com/in/saadrehman17100/" target="_blank" rel="noopener noreferrer" className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>saadrehman17100</a></p>
-  
-            <p className='text-xl'>Email Me <span className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>saadrehman17100@gmail.com</span></p>
-            <p className='text-2xl font-bold'>Or</p>
-            <p className='text-xl'>Call Me on <span className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>+923150777326</span></p>
-            
-          </div>
-          <div className='flex flex-row space-x-3'>
-            <Image src={hr} alt="HrImage" width={80} height={80} className='rounded-full'></Image>
-            <div className="flex flex-col space-y-0 items-start justify-center">
-              <h1 className='text-xl font-bold'>Hr Team Lead</h1>
-              <p className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>saadrehman17100@gmail.com</p>
-            </div>
+          {/* GitHub Button */}
+          <a href="https://github.com/saadrehman171000" target="_blank" rel="noopener noreferrer" className="text-base lg:text-xl px-4 lg:px-8 py-2 lg:py-3 mb-4 lg:mb-6 hover:bg-black hover:text-white hover:outline-none outline text-white outline-white rounded-3xl mt-4 transition-colors duration-300 inline-block lg:inline">GitHub</a>
+          {/* LinkedIn Button */}
+          <a href="https://www.linkedin.com/in/saadrehman17100/" target="_blank" rel="noopener noreferrer" className="text-base lg:text-xl px-4 lg:px-8 py-2 lg:py-3 mb-4 lg:mb-6 hover:bg-black hover:text-white hover:outline-none outline text-white outline-white rounded-3xl mt-4 transition-colors duration-300 inline-block lg:inline">LinkedIn</a>
+          {/* Email Button */}
+          <a href="mailto:saadrehman17100@gmail.com" className="text-base lg:text-xl px-4 lg:px-8 py-2 lg:py-3 mb-4 lg:mb-6 hover:bg-black hover:text-white hover:outline-none outline text-white outline-white rounded-3xl mt-4 transition-colors duration-300 inline-block lg:inline">Email Me</a>
+          <p className='text-2xl font-bold'>Or</p>
+          <p className='text-xl'>Call Me on <span className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>+923150777326</span></p>
+        </div>
+        <div className='flex flex-row space-x-3'>
+          <Image src={hr} alt="HrImage" width={80} height={80} className='rounded-full'></Image>
+          <div className="flex flex-col space-y-0 items-start justify-center">
+            <h1 className='text-xl font-bold'>Saad Rehman</h1>
+            <p className='text-white font-bold underline hover:text-blue-500 cursor-pointer transition-colors duration-300'>saadrehman17100@gmail.com</p>
           </div>
         </div>
       </div>
@@ -48,4 +45,4 @@ const ContactUs = (props: Props) => {
   )
 }
 
-export default ContactUs
+export default ContactUs;
