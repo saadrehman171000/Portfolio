@@ -768,6 +768,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./public/LOGOO.png": {
+      "*": {
+        "id": "(sc_client)/./public/LOGOO.png",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/LOGOO.png",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/LOGOO.png",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/communicate.svg": {
       "*": {
         "id": "(sc_client)/./public/communicate.svg",
@@ -2922,6 +2948,30 @@ self.__RSC_MANIFEST={
     },
     "E:\\Saad Rehman\\Portfolio\\public\\Close.png#default": {
       "id": "(app-client)/./public/Close.png",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Saad Rehman\\Portfolio\\public\\LOGOO.png": {
+      "id": "(app-client)/./public/LOGOO.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Saad Rehman\\Portfolio\\public\\LOGOO.png#": {
+      "id": "(app-client)/./public/LOGOO.png",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "E:\\Saad Rehman\\Portfolio\\public\\LOGOO.png#default": {
+      "id": "(app-client)/./public/LOGOO.png",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
