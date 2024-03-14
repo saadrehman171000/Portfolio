@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import hr from '../../public/hr.webp';
+import hr from '../../public/lg.png';
 type Props = {}
 
 const Recommendation = (props: Props) => {

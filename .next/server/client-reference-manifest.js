@@ -846,32 +846,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./public/hr.webp": {
-      "*": {
-        "id": "(sc_client)/./public/hr.webp",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/hr.webp",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/hr.webp",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/lg.png": {
       "*": {
         "id": "(sc_client)/./public/lg.png",
@@ -3020,30 +2994,6 @@ self.__RSC_MANIFEST={
     },
     "E:\\Saad Rehman\\Portfolio\\public\\hamburger.png#default": {
       "id": "(app-client)/./public/hamburger.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "E:\\Saad Rehman\\Portfolio\\public\\hr.webp": {
-      "id": "(app-client)/./public/hr.webp",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "E:\\Saad Rehman\\Portfolio\\public\\hr.webp#": {
-      "id": "(app-client)/./public/hr.webp",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "E:\\Saad Rehman\\Portfolio\\public\\hr.webp#default": {
-      "id": "(app-client)/./public/hr.webp",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
