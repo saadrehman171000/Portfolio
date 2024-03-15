@@ -11,7 +11,7 @@ import Lottie from 'lottie-react';
 import AnimationData from '../../public/webdevAnimationData.json';
 import Story from '@/components/Story';
 
-export default function page() {
+export default function Page() {
   const [open, setOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
